@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "name": "User mocks",
+      "username": "Bret",
+      "email": "cypressMock@april.biz"
+    },
+    {
+      "id": 2,
+      "name": "Mock User Two",
+      "username": "Antonette",
+      "email": "mockUserTwo@april.biz"
+    },
+    {
+      "id": 3,
+      "name": "Mock User Three",
+      "username": "Samantha",
+      "email": "mockUserThree@april.biz"
+    }
+  ]
+  
