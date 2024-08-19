@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Data Table</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 data-test="api-data-title">API Data</h1>
+    
+    <div id="loading" data-test="loading-indicator" style="text-align: center;">Loading...</div>
+    
+    <table id="data-table" data-test="data-table" style="display: none;">
+        <thead>
+            <tr>
+                <th data-test="column-id">ID</th>
+                <th data-test="column-name">Name</th>
+                <th data-test="column-email">Email</th>
+            </tr>
+        </thead>
+        <tbody data-test="table-body">
+            
+        </tbody>
+    </table>
+    
+    <div id="error-message" data-test="error-message"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
